@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "niguiri",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.receiteria.com.br%2Freceitas-de-niguiri-de-salmao%2F&psig=AOvVaw33T6BfxYwzWO4VvLsrgFpO&ust=1677209488178000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi__K_aqv0CFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 2,
+    "name": "maki",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsushiboxrs.com.br%2Fproduto%2Fhosomaki-philadelphia%2F&psig=AOvVaw1qtAvfDGkmuXElk2DlteMG&ust=1677209685675000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOiHk47bqv0CFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 3,
+    "name": "uramaki",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Freceitinhas.com.br%2Freceita%2Fsushi-filadelfia-uramaki%2F&psig=AOvVaw1fIpABcHFnWHfcFLYShSKz&ust=1677209724724000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNih4aDbqv0CFQAAAAAdAAAAABAE"
+  }
+]
