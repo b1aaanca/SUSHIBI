@@ -1,0 +1,32 @@
+name: DeploySUSHIBI
+on:
+  workflow_dispatch:  
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run a one-line script
+      run: echo Hello, world!
+      
+  deploy-QAS:
+    runs-on: ubuntu-latest
+    environment: 
+      name: qas
+      url: 'bianca.com'
+    needs: build
+    steps:
+    - name: Run a one-line script
+      run: echo Deploy QAS!
+      
+  deploy-prd:
+    runs-on: ubuntu-latest
+    environment: 
+      name: prd
+      url: 'bianca.com'
+    needs: deploy-QAS
+    steps:
+    - name: Run a one-line script
+      run: echo Deploy PRD!
+      
+      
